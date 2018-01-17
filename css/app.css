@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background: #000
 }
 
 .navbar{
@@ -44,11 +45,15 @@ body{
 
 h1, h2, h3, h4, h5, h6, h7{
     font-family: 'Permanent Marker', cursive;
+    color:#fff; 
+}
 
+td, th{
+    color: #fff
 }
 
 h1{
-    color:#fff; 
+   
     font-size: 50px;
 }
 p{
@@ -63,11 +68,12 @@ p{
 }
 
 #meni .nav-link{
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
 }
 
 .nav-tabs .nav-link {
-    color: brown;
+    color: #fff;
 }
 
 h2{
