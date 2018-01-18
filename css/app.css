@@ -1,11 +1,11 @@
 body{
     margin: 0;
     padding: 0;
-    background: #000
+    
 }
 
 .navbar{
-    background: rgba(0, 0, 0, 0.678)!important;
+    background: #fff!important;  
 }
 
 
@@ -44,7 +44,9 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6, h7{
-    font-family: 'Permanent Marker', cursive;
+    font-family: "Roboto Slab", "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 50px;
     color:#fff; 
 }
 
@@ -54,12 +56,20 @@ td, th{
 
 h1{
    
-    font-size: 50px;
 }
+
+h2{
+    color: #51331E;
+}
+
+h4{
+    color: #51331E;
+}
+
 p{
-    color: #fff;
-    font-family: 'Arvo', serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 25px;
+    color: #fff
 }
 
 .btn:hover{
@@ -72,24 +82,28 @@ p{
     font-weight: bold;
 }
 
-.nav-tabs .nav-link {
-    color: #fff;
+#meni h2{
+    background: url(../img/tools.png) center center no-repeat;
+    padding: 21px 0;
 }
 
-h2{
-    color:#000; 
+.nav-tabs .nav-link {
+    color: #000;
 }
 
 hr{
-    border-top: 2px solid black;
+    border-top: 2px solid #000;
+    color: #51331E;
 }
 
 th{
-    font-size: 30px
+    font-size: 30px;
+    color: rgb(151, 151, 151);
 }
 
 td{
     font-family: 'Arvo', serif; 
+    color: #51331E;
 }
 
 #map{
@@ -125,10 +139,12 @@ footer p span{
     .navbar-dark .navbar-brand{
         text-align: center;
     }
+
     h1{
         font-size: 30px;
         padding-top:40px;
     }
+
     p{
         font-size: 15px
     }
@@ -137,5 +153,13 @@ footer p span{
         display: flex;
         justify-content: center;
         flex-direction: row;
+    }
+    
+    .navbar-brand span{
+        font-size: 10px;
+    }
+    
+    .btn{
+        display: none;
     }
 }
