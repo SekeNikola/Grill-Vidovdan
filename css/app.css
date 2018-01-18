@@ -141,7 +141,7 @@ footer p span{
     }
 
     h1{
-        font-size: 30px;
+        font-size: 40px;
         padding-top:40px;
     }
 
@@ -158,8 +158,5 @@ footer p span{
     .navbar-brand span{
         font-size: 10px;
     }
-    
-    .btn{
-        display: none;
-    }
+
 }
