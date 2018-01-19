@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background: url(../img/header.png) center center;
     
 }
 
@@ -11,7 +12,7 @@ body{
 
 .call{
     position: fixed;
-    bottom: 20px;
+    bottom: 40px;
     right: 40px;
     border: 0;
     border-radius: 50%;
@@ -153,6 +154,10 @@ footer p span{
        
     }
 
+    h4{
+        font-size: 20px;
+    }
+
     p{
         font-size: 15px
     }
@@ -165,6 +170,10 @@ footer p span{
     
     .navbar-brand span{
         font-size: 10px;
+    }
+    
+    .navbar-brand {
+        font-size: 25px;
     }
 
 }
