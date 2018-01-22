@@ -1,9 +1,104 @@
 body{
     margin: 0;
-    padding: 0;
-    background: url(../img/header.png) center center;
-    
+    padding: 0;    
 }
+
+.top{
+    background: url(../img/header.png) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top h1, em{
+    color: #51331E;
+}
+
+/* SCROLL DOWN */
+.wrap-scrolldownhoney {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+  }
+  .wrap-scrolldownhoney .scrolldownhoney {
+    border: 2px solid #51331E;
+    border-radius: 30px;
+    height: 46px;
+    margin: 0 auto 8px;
+    text-align: center;
+    width: 30px;
+  }
+  .wrap-scrolldownhoney .scrolldownhoney .scrolldownhoney-c1,
+  .wrap-scrolldownhoney .scrolldownhoney .scrolldownhoney-c2 {
+    animation-duration: 1.5s;
+    animation-name: scrolldownhoney;
+    animation-iteration-count: infinite;
+    fill: #51331E;
+  }
+  .wrap-scrolldownhoney .scrolldownhoney-c2 {
+    animation-delay: 0.75s;
+  }
+  @-moz-keyframes scrolldownhoney {
+    0% {
+      opacity: 0;
+      transform: translate(0, -8px);
+    }
+    50% {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+    100% {
+      opacity: 0;
+      transform: translate(0, 8px);
+    }
+  }
+  @-webkit-keyframes scrolldownhoney {
+    0% {
+      opacity: 0;
+      transform: translate(0, -8px);
+    }
+    50% {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+    100% {
+      opacity: 0;
+      transform: translate(0, 8px);
+    }
+  }
+  @-o-keyframes scrolldownhoney {
+    0% {
+      opacity: 0;
+      transform: translate(0, -8px);
+    }
+    50% {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+    100% {
+      opacity: 0;
+      transform: translate(0, 8px);
+    }
+  }
+  @keyframes scrolldownhoney {
+    0% {
+      opacity: 0;
+      transform: translate(0, -8px);
+    }
+    50% {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+    100% {
+      opacity: 0;
+      transform: translate(0, 8px);
+    }
+  }
+  
+/* SCROLL DOWN END */
 
 .navbar{
     background: #fff!important;  
@@ -63,9 +158,6 @@ td, th{
     color: #fff
 }
 
-h1{
-   
-}
 
 h2{
     color: #51331E;
@@ -145,6 +237,10 @@ footer p span{
 
 
 @media only screen and (max-width: 425px) {
+
+    .top{
+        display: none;
+    }
     .navbar-dark .navbar-brand{
         text-align: center;
     }
